@@ -1,0 +1,2 @@
+int dpp_forward(int square_size, int proposals_per_square, int proposals_per_image, int spatital_scale, THFloatTensor * box_plan,
+                    THFloatTensor * histogram, THFloatTensor * score_sum, THFloatTensor * output, THFloatTensor * features);
